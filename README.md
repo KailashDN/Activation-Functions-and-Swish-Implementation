@@ -34,17 +34,17 @@ The models saved in local directory and can be used later for training, evaluati
 When working on large dataset its convinient to use cloud services such as AWS, GCP, Google Colab etc.
 Out of those three the google coolab is free to use and i have executed my code on google colab.
 	
-	### Guidlines to run this project on colab:
-	
-		1. Open google colab at https://colab.research.google.com/notebooks/welcome.ipynb and login
-		2. Create a new notebooke or you can upload your jupyter notebook from file menu
-		3. Go to Runtime Menu > Change Runtime type > A popup window will open. Select select runtime type 'python 3' and hardware accelerator 'GPU'
-		4. Download dataset from https://www.kaggle.com/puneet6060/intel-image-classification
-		5. Keep only 'buildings' and 'forest' data in Train and Test set and remove other
-		6. Compressed Train and Test image Dataset in .zip formate 
-		7. Upload the the zipped folder to colab using Upload button provided in Files section
-		8. Uncomment the "Unzip Uploaded file on colab" cell code and run entire notebook
-	To learn Google colab basics, please refer :https://www.youtube.com/watch?time_continue=1&v=inN8seMm7UI
+### Guidlines to run this project on colab:
+
+	1. Open google colab at https://colab.research.google.com/notebooks/welcome.ipynb and login
+	2. Create a new notebooke or you can upload your jupyter notebook from file menu
+	3. Go to Runtime Menu > Change Runtime type > A popup window will open. Select select runtime type 'python 3' and hardware accelerator 'GPU'
+	4. Download dataset from https://www.kaggle.com/puneet6060/intel-image-classification
+	5. Keep only 'buildings' and 'forest' data in Train and Test set and remove other
+	6. Compressed Train and Test image Dataset in .zip formate 
+	7. Upload the the zipped folder to colab using Upload button provided in Files section
+	8. Uncomment the "Unzip Uploaded file on colab" cell code and run entire notebook
+To learn Google colab basics, please refer :https://www.youtube.com/watch?time_continue=1&v=inN8seMm7UI
 	
 ## Implementing analysis.
 Getting Accuracy, loss, execution time for each activation function and comparing them.
